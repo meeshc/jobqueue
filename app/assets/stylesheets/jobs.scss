@@ -1,3 +1,65 @@
 // Place all the styles related to the Jobs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+	color: #595959;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: 'Open Sans';
+	background: url(https://dl.dropboxusercontent.com/s/ie2puvib4qq66sa/gray.png?dl=0) no-repeat center center fixed;
+    background-size: 100% 100%;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#box {
+	background-color: rgba(255,255,255, .3);
+	width:850px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 15px;
+	padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Open Sans';
+  text-decoration: none;
+  color: #595959;
+  text-align: center;
+}
+
+th {
+	font-family: 'Open Sans';
+	color: #737b8c;
+	font-size: 1.15em;
+	padding:15px;
+}
+
+c {
+	font-family: 'Open Sans';
+	color: #94b1d1;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background-color: #e5ecff;
+	text-align: center;
+}
+c:hover {
+  	font-family: 'Open Sans';
+	color: #ccdaff;
+	padding: 5px;
+	border: 1px solid #ccc;
+	background-color: #e5ecff;
+	text-align: center;
+}
+
+b {
+	font-family: 'Open Sans';
+	color: #737b8c;
+}

@@ -1,24 +1,29 @@
-<p id="notice"><%= notice %></p>
+<p align="center" id="notice"><%= notice %></p>
 
-<p>
-  <strong>Job:</strong>
-  <%= @job.job_id %>
-</p>
+<div id="box">
+	<body>
+		<div style="display: inline-block; max-width: 60%; text-align: left;">
+		<p>
+		  <strong>Job:</strong>
+		  <%= @job.job_id %>
+		</p>
 
-<p>
-  <strong>Url:</strong>
-  <%= @job.url %>
-</p>
+		<p>
+		  <strong>Url:</strong>
+		  <%= @job.url %>
+		</p>
 
-<p>
-  <strong>Status:</strong>
-  <%= @job.status %>
-</p>
+		<p>
+		  <strong>Status:</strong>
+		  <%= @job.status %>
+		</p>
+	</body>
+		<p size="1">
+		  <strong>Result:</strong>
+		  <%= @job.result %>
+		</p>
 
-<p>
-  <strong>Result:</strong>
-  <%= @job.result %>
-</p>
-
-<%= link_to 'Edit', edit_job_path(@job) %> |
-<%= link_to 'Back', jobs_path %>
+		<c><%= link_to 'Edit', edit_job_path(@job) %></c>
+		<c><%= link_to 'Back', jobs_path %></c>
+		</div>
+</div>
