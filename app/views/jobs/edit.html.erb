@@ -1,6 +1,13 @@
-<h1>Editing Job</h1>
-
-<%= render 'form', job: @job %>
-
-<%= link_to 'Show', @job %> |
-<%= link_to 'Back', jobs_path %>
+<div id="box">
+	<h1>Editing Job</h1>
+	<hr width=60%>
+	<br>
+	<body align="center">
+		<div style="display: inline-block; max-width: 60%; text-align: left;">
+			<%= render 'form', job: @job %>
+			<br>
+			<c><%= link_to 'Edit', edit_job_path(@job) %></c>
+			<c><%= link_to 'Back', jobs_path %></c>
+		</div>
+	</body>
+</div>
