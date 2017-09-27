@@ -1,13 +1,12 @@
 <p align="center" id="notice"><%= notice %></p>
 <div id="box">
-  <h1>Jobs</h1>
-
+  <h1>W O R D S</h1>
   <hr width=60%>
   <table align="center">
     <thead>
       <tr>
         <% if Job.exists? %>
-          <th>Job</th>
+          <th>Page</th>
           <th>Url</th>
           <th>Status</th>
           <th>Result</th>
@@ -39,5 +38,5 @@
   </table>
 
   <br>
-  <div align="center"><c><%= link_to 'New Job', new_job_path %> </c></div>
+  <div align="center"><c style="text-decoration:none;"><%= link_to 'New Page', new_job_path %> </c></div>
 </div>

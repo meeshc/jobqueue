@@ -34,7 +34,7 @@ class JobsController < ApplicationController
     respond_to do |format|
       if @job.save
         GethtmlJob.perform_later id, params[:url]
-        format.html { redirect_to '/jobs', notice: 'Job was successfully created.' }
+        format.html { redirect_to '/jobs', notice: 'Page was successfully created.' }
         format.json { render :show, status: :created, location: @job }
       else
         format.html { render :new }

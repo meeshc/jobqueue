@@ -15,6 +15,7 @@ class GethtmlJob < ApplicationJob
     #p words.length, words.uniq.length, words.uniq.sort[0..8]
     words = text.scan(/[a-z]+/i)
     #p words.length, words.uniq.length, words.uniq.sort[0..5]
+    
     puts words
 	job = Job.where(:job_id => args[0])
 	job.update(:result => words)

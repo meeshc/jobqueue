@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-	color: #595959;
+	color: #8c8c8c;
 	margin-top: 50px;
 	margin-bottom: 50px;
 	font-family: 'Open Sans';
-	background: url(https://dl.dropboxusercontent.com/s/ie2puvib4qq66sa/gray.png?dl=0) no-repeat center center fixed;
+	background: url(https://dl.dropboxusercontent.com/s/lptsic44f1od7z2/wallpaper.jpg?dl=0) no-repeat center center fixed;
     	background-size: 100% 100%;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -18,7 +18,7 @@ body {
 }
 
 #box {
-	background-color: rgba(255,255,255, .3);
+	background-color: rgba(255,255,255, .7);
 	width:850px;
 	height: 100%;
 	margin-left:auto;
@@ -44,18 +44,19 @@ th {
 
 c {
 	font-family: 'Open Sans';
-	color: #94b1d1;
+	color: #f0dbdb;
 	padding: 5px;
 	border: 1px solid #ccc;
-	background-color: #e5ecff;
+	background-color: #eddede;
 	text-align: center;
 }
 c:hover {
+	text-decoration: none !important;
   	font-family: 'Open Sans';
 	color: #ccdaff;
 	padding: 5px;
 	border: 1px solid #ccc;
-	background-color: #e5ecff;
+	background-color: #f7d4d4;
 	text-align: center;
 }
 
